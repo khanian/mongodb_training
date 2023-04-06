@@ -57,7 +57,7 @@ net:
     bindIp: 0.0.0.0
 
 storage:
-    dbPath: "/Users/user/mongodb/data1"
+    dbPath: "~/mongodb/data1"
     directoryPerDB: true
 
 replication:
@@ -65,7 +65,7 @@ replication:
     replSetName: "rs1"
 
 systemLog:
-    path: "/Users/user/mongodb/logs/mongod1.log"
+    path: "~/mongodb/logs/mongod1.log"
     destination: "file"
 ```
 
@@ -77,7 +77,7 @@ net:
     bindIp: 0.0.0.0
 
 storage:
-    dbPath: "/Users/user/mongodb/data2"
+    dbPath: "~/mongodb/data2"
     directoryPerDB: true
 
 replication:
@@ -85,7 +85,7 @@ replication:
     replSetName: "rs1"
 
 systemLog:
-    path: "/Users/user/mongodb/logs/mongod2.log"
+    path: "~/mongodb/logs/mongod2.log"
     destination: "file"
 ```
 
@@ -97,7 +97,7 @@ net:
     bindIp: 0.0.0.0
 
 storage:
-    dbPath: "/Users/user/mongodb/data3"
+    dbPath: "~/mongodb/data3"
     directoryPerDB: true
 
 replication:
@@ -105,7 +105,7 @@ replication:
     replSetName: "rs1"
 
 systemLog:
-    path: "/Users/user/mongodb/logs/mongod3.log"
+    path: "~/mongodb/logs/mongod3.log"
     destination: "file"
 ```
 
