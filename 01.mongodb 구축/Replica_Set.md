@@ -34,10 +34,11 @@ cd ~/Downloads
 cd mongodb-macos-x86_64-5.0.12
 cd bin
 
+
 # 각각 다른 터미널에서 실행한다.
-mongod --replSet rs1 --port 27017 --bind_ip "0.0.0.0" --dbpath ~/mongodb/data1  --oplogSize 128
-mongod --replSet rs1 --port 27018 --bind_ip "0.0.0.0" --dbpath ~/mongodb/data2  --oplogSize 128
-mongod --replSet rs1 --port 27019 --bind_ip "0.0.0.0" --dbpath ~/mongodb/data3  --oplogSize 128
+./mongod --replSet rs1 --port 27017 --bind_ip "0.0.0.0" --dbpath ~/mongodb/data1  --oplogSize 128
+./mongod --replSet rs1 --port 27018 --bind_ip "0.0.0.0" --dbpath ~/mongodb/data2  --oplogSize 128
+./mongod --replSet rs1 --port 27019 --bind_ip "0.0.0.0" --dbpath ~/mongodb/data3  --oplogSize 128
 ```
 
 ### 실행 방법2. Config File 이용
