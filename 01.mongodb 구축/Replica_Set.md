@@ -118,6 +118,10 @@ cd bin
 ./mongod -f /Users/user/mongodb/config/mongod1.conf
 ./mongod -f /Users/user/mongodb/config/mongod2.conf
 ./mongod -f /Users/user/mongodb/config/mongod3.conf
+
+./mongodb-macos-x86_64-5.0.15/bin/mongod -f ~/mongodb/config/mongod1.conf
+./mongodb-macos-x86_64-5.0.15/bin/mongod -f ~/mongodb/config/mongod2.conf
+./mongodb-macos-x86_64-5.0.15/bin/mongod -f ~/mongodb/config/mongod3.conf
 ```
 
 ### Replica Set Initiate
